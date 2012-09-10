@@ -3,7 +3,7 @@ layout: post
 title: "Setting up another blog"
 date: 2012-09-07 14:56
 comments: true
-categories: 
+categories: General
 ---
 
 I have set up another blog after I found that Jekyll Bootstrap was stagnant.

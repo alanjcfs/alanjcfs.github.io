@@ -1,0 +1,129 @@
+---
+layout: post
+title: "8:30 to 5"
+date: 2012-09-08 19:05
+comments: true
+categories: 
+---
+I used to have a 8:30 -- 17:00 job, but I quit after 101th day, nine months
+later. If you calculate it, you will know that I worked 12
+days a month or less. It was also an $11/hour job, and I needed to commute 50+
+miles round trip.
+
+It took me a long time to leave, and I had to have a combination of factors
+convincing me, which I will first list then explain: 
+
+1. Gasoline.
+2. Nothing new to learn.
+3. Learning Ruby programming during my off days.
+4. Finding a job posting from a deaf-owned company looking for a 
+   Ruby developer.
+5. Being more confident about my future job prospect.
+
+I drove 250 miles a week three weeks a month (including going to Berkeley
+for aikido practice) and earned per week not much more than $352 and as low as $230.
+
+How can I be willing to spend $45 a week for gas out of so small an income.
+I worked there so long because it was my first job and I was happy 
+to even be able to find work. I still feel deeply appreciative to them for
+being willing to hire me even though I was probably the farthest temp commuter
+to have accepted the job offer.
+
+Still, despite working there, I always had the sense that I wouldn't stay there
+for long. The first reason was that the job didn't require my level of education.
+I also always did the same thing every day: open boxes
+in the morning, sort specimens, sometimes do data entry, and otherwise
+do filtering the rest of the day (consisting of pouring urine aliquot, taking
+out fibrin and putting a filter in, and centrifugation). 
+I learned some data entry for a limited set of requisitions, but they didn't
+teach me any more.
+
+For three months, I focused on doing my job, thinking that it would be too early
+to consider applying to other jobs. The first month was hard, and
+I was glad to have a break, in which I recovered. It got easier later,
+when I then could use my break weeks to learn more programming. I didn't think
+of anything else I could do, except retail, writing and social work.
+
+It is a mark of my limited range when I say that I literally could not think 
+of what kind of job I wanted, only that I studied for either working in the 
+laboratories and was studying what I was interested in.
+
+Months before working at Spectra, I started the [Learn Ruby the Hard Way][1].
+I also read through Why the Lucky Stiff, and I was trying to challenge myself,
+almost deciding on a career change since I was likely not going to succeed.
+Will Johansson's saying that he only knew ```10.times { print "Hello World!" }```
+convinced me to learn because I kind of wanted a language unused by him.
+During the weeks I had no work, I focused on trying to learn the programming 
+language, even though I had my doubt because I wasn't the nerd or geek
+who started writing scripts at the age of 12. Don't I have to be "that guy"
+in order to be a real programmer?
+
+[1]: http://ruby.learncodethehardway.com
+
+<!-- more -->
+
+That high standard was sometimes the obstacle, sometimes the motivation.
+
+I took Statistics followed by Computational Intelligence 
+at UC Santa Cruz Silicon Valley Extension, in the hope that both would
+give me a solid background for bioinformatics, which was a field I was interested
+in even though all the job postings seemed to want a PhD. I didn't really
+see much hope for me, but stayed patient.
+
+One day, I decided to look on Craigslist for any listing mentioning "deaf."
+Usually I see only a few listing involving working with deaf people. That day,
+there was a posting for "Ruby Developer." Piqued, I took a look.
+
+They were looking for 
+someone who could program using Backbone.js, EventMachine, etc. They used the word
+"mandatory", which made me feel like I wasn't qualified for it.
+Thinking retrospectively, I realized
+that the posting was simply trying to be clear about its
+requirements. No sense in using buzzwords like Web 2.0 and Big Data
+when you are looking for a specific job to get done. Moreover, they were 
+also open to internships, so clearly plenty of little tasks even if I couldn't
+do the EventMachine or Backbone thing.
+
+I didn't want to apply at first, but I was indeed very curious what it might be,
+whether there was ambiguity in them saying that I would be working with a 
+deaf-owned company. I saw two possible meanings: That it was a hearing company
+that had contract work with a deaf company; that it was a company owned by
+deaf people.
+
+Nate encouraged me to apply. I decided to go for it, following his advice
+of being upfront about my lack of experience, 
+giving a short life story (growing up deaf
+in an oralist environment, learning ASL, being able to communicate).
+Cognizant of how some well-known developers have complained about 
+Computer Science Departments all across the country graduating people
+who absolutely didn't know how to code, who couldn't answer an interview
+question regarding how to write a certain function (like FizzBuzz), I wrote
+saying that I could write FizzBuzz in several
+different ways.
+
+They replied saying they wanted to interview me. The interview was quite
+interesting, all conducted in sign language. Unlike other interviews, where
+I have an interpreter and usually talk, this was an interview in which I 
+completely sign. The questions two of three people in the room 
+asked came across as being easy 
+on me, while the third person asked challenging questions like whether
+I knew WEBRick, and how to implement a chat server. I was heartened 
+when one of the others said that even he couldn't think of how to answer
+that question, so I somewhat understood it to be a joke.
+
+I still think back on it with a kind of relief and joy.
+
+Then they said they would contact me later. That was a brief period of
+uncertainty where I emailed them and they didn't reply (I'm insecure like that)
+but it turned out to be just someone feeling ill and another going out of town.
+
+I wrote the code they needed. Then a month later, despite not knowing
+whether I would be able to stay in the compnay, I sent an email to say that I
+quit. People congratulated me at Spectra, which probably means that they
+expected me to leave, just like they expect every other temp to leave.
+
+I'm happy.
+
+I haven't gotten any money yet, but I'm happy. I want to say it changed my life,
+but that wouldn't be totally accurate because the change was limited to quitting
+my job. Once I get an income, I'd be rather glad.

@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://blog.atomsign.net # http://alanjcfs.github.com
+url: http://alanjcfs.github.com
 title: Eight-Fingered Atom
 subtitle: A Jekyll-based blog.
 author: Alan Fung-Schwarz

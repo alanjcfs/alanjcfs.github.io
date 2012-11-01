@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Work | Eight-Fingered Atom]]></title>
+  <link href="http://blog.atomsign.net/blog/categories/work/atom.xml" rel="self"/>
+  <link href="http://blog.atomsign.net/"/>
+  <updated>2012-10-22T23:02:15-07:00</updated>
+  <id>http://blog.atomsign.net/</id>
+  <author>
+    <name><![CDATA[Alan Fung-Schwarz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I am an intern]]></title>
+    <link href="http://blog.atomsign.net/blog/2012/09/18/i-am-an-intern/"/>
+    <updated>2012-09-18T12:59:00-07:00</updated>
+    <id>http://blog.atomsign.net/blog/2012/09/18/i-am-an-intern</id>
+    <content type="html"><![CDATA[<p>I was an intern once, for something I didn't regard as particularly
+useful. I spent 200 hours, divided into segment of four-hour period,
+working on the farm, where I helped a former plant biologist
+transplant seedlings from a small pot of soil to a bigger pot.
+They are then placed in the farmland, and they are grown organically,
+using drop irrigation to avoid wasting water, in Sunol.
+For the effort, I received something like $200. It was a fantastic
+experience, and almost gave me a green thumb. Almost. Alas, after the
+internship was over, my plant-growing ability has not improved at all,
+nor has my interest ever burgeoned into an obsession or a routine ---
+I have not watered any plant lately.</p>
+
+<p>I am an intern again, for a different field entirely, and I am excited.</p>
+]]></content>
+  </entry>
+  
+</feed>

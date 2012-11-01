@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: General | Eight-Fingered Atom]]></title>
+  <link href="http://blog.atomsign.net/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://blog.atomsign.net/"/>
+  <updated>2012-10-22T23:02:15-07:00</updated>
+  <id>http://blog.atomsign.net/</id>
+  <author>
+    <name><![CDATA[Alan Fung-Schwarz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setting up another blog]]></title>
+    <link href="http://blog.atomsign.net/blog/2012/09/07/setting-up-another-blog/"/>
+    <updated>2012-09-07T14:56:00-07:00</updated>
+    <id>http://blog.atomsign.net/blog/2012/09/07/setting-up-another-blog</id>
+    <content type="html"><![CDATA[<p>I have set up another blog after I found that Jekyll Bootstrap was stagnant.
+Of course, ideally a framework should hardly change, but I feel more confident
+about Octopress for being the work of multiple programmers than about
+Bootstrap, which has been left behind by its creator in favor of creating a
+language-agnostic blogging platform. I will attempt move some stuff from
+the old framework to the new.</p>
+]]></content>
+  </entry>
+  
+</feed>

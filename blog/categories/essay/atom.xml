@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Essay | Eight-Fingered Atom]]></title>
+  <link href="http://blog.atomsign.net/blog/categories/essay/atom.xml" rel="self"/>
+  <link href="http://blog.atomsign.net/"/>
+  <updated>2012-10-22T23:02:15-07:00</updated>
+  <id>http://blog.atomsign.net/</id>
+  <author>
+    <name><![CDATA[Alan Fung-Schwarz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[To try]]></title>
+    <link href="http://blog.atomsign.net/blog/2012/10/22/the-to-try/"/>
+    <updated>2012-10-22T22:03:00-07:00</updated>
+    <id>http://blog.atomsign.net/blog/2012/10/22/the-to-try</id>
+    <content type="html"><![CDATA[<p>I watched the last twenty minutes of the debate after I came home.
+This came after a day at work where I felt lost and unproductive.</p>
+
+<p>"Welcome to the developer's life," said my boss, when I responded haltingly
+of how finished the models were. I said that I was finished and not finished.</p>
+
+<p>I don't know how it is that I know and do not know. I feel as if my brain
+is trying to slither—without a muscle—around some sharp right-angle
+corner, a line drawing on a graph paper.</p>
+]]></content>
+  </entry>
+  
+</feed>

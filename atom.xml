@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Eight-Fingered Atom]]></title>
-  <link href="http://blog.atomsign.net/atom.xml" rel="self"/>
-  <link href="http://blog.atomsign.net/"/>
-  <updated>2012-10-22T23:02:15-07:00</updated>
-  <id>http://blog.atomsign.net/</id>
+  <link href="http://alanjcfs.github.com/atom.xml" rel="self"/>
+  <link href="http://alanjcfs.github.com/"/>
+  <updated>2012-11-27T21:02:11-08:00</updated>
+  <id>http://alanjcfs.github.com/</id>
   <author>
     <name><![CDATA[Alan Fung-Schwarz]]></name>
     
@@ -14,10 +14,77 @@
 
   
   <entry>
+    <title type="html"><![CDATA[How to install Rails on Ubuntu using rbenv]]></title>
+    <link href="http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv/"/>
+    <updated>2012-11-27T20:31:00-08:00</updated>
+    <id>http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv</id>
+    <content type="html"><![CDATA[<p>The first step is to follow this great write-up on Gist from (https://gist.github.com/2627011)[Olistik].</p>
+
+<h3>Get rbenv</h3>
+
+<pre><code>cd ~
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc
+echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc
+exec $SHELL
+</code></pre>
+
+<h3>Get ruby-build</h3>
+
+<pre><code>mkdir -p ~/.rbenv/plugins
+cd ~/.rbenv/plugins
+git clone git://github.com/sstephenson/ruby-build.git
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' &gt;&gt; ~/.bashrc
+exec $SHELL
+</code></pre>
+
+<h3>Get ruby</h3>
+
+<pre><code>sudo apt-get install zlib1g-dev build-essential libssl-dev libreadline-dev
+rbenv install 1.9.3-p327
+rbenv global 1.9.3-p327
+</code></pre>
+
+<h3>Set local version</h3>
+
+<p>Go into the directory containing your Rails app</p>
+
+<pre><code>rbenv local 1.9.3-p327
+</code></pre>
+
+<p>It will create a .rbenv-version file to ensure that you switch to the right ruby version
+in case you decide to upgrade.</p>
+
+<h3>Disable installation of rdoc and ri</h3>
+
+<pre><code>echo "gem: --no-ri --no-rdoc" &gt; ~/.gemrc
+</code></pre>
+
+<h3>Install dependencies for nokogiri and postgresql</h3>
+
+<pre><code>sudo apt-get install libxml2-dev libxslt1-dev postgresql libpq-dev
+</code></pre>
+
+<h3>Install bundler and bundle install</h3>
+
+<pre><code>gem install bundler
+bundle install
+</code></pre>
+
+<h3>Set up Postgres</h3>
+
+<pre><code>sudo -u postgres psql # and in the postgres type the following with the appropriate substitution
+create user username with createdb password strong_password;
+create database rails_devel with owner username;
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[To try]]></title>
-    <link href="http://blog.atomsign.net/blog/2012/10/22/the-to-try/"/>
+    <link href="http://alanjcfs.github.com/blog/2012/10/22/the-to-try/"/>
     <updated>2012-10-22T22:03:00-07:00</updated>
-    <id>http://blog.atomsign.net/blog/2012/10/22/the-to-try</id>
+    <id>http://alanjcfs.github.com/blog/2012/10/22/the-to-try</id>
     <content type="html"><![CDATA[<p>I watched the last twenty minutes of the debate after I came home.
 This came after a day at work where I felt lost and unproductive.</p>
 
@@ -32,9 +99,9 @@ corner, a line drawing on a graph paper.</p>
   
   <entry>
     <title type="html"><![CDATA[I am an intern]]></title>
-    <link href="http://blog.atomsign.net/blog/2012/09/18/i-am-an-intern/"/>
+    <link href="http://alanjcfs.github.com/blog/2012/09/18/i-am-an-intern/"/>
     <updated>2012-09-18T12:59:00-07:00</updated>
-    <id>http://blog.atomsign.net/blog/2012/09/18/i-am-an-intern</id>
+    <id>http://alanjcfs.github.com/blog/2012/09/18/i-am-an-intern</id>
     <content type="html"><![CDATA[<p>I was an intern once, for something I didn&#8217;t regard as particularly
 useful. I spent 200 hours, divided into segment of four-hour period,
 working on the farm, where I helped a former plant biologist
@@ -53,9 +120,9 @@ I have not watered any plant lately.</p>
   
   <entry>
     <title type="html"><![CDATA[8:30 to 5]]></title>
-    <link href="http://blog.atomsign.net/blog/2012/09/08/8-30-to-5/"/>
+    <link href="http://alanjcfs.github.com/blog/2012/09/08/8-30-to-5/"/>
     <updated>2012-09-08T19:05:00-07:00</updated>
-    <id>http://blog.atomsign.net/blog/2012/09/08/8-30-to-5</id>
+    <id>http://alanjcfs.github.com/blog/2012/09/08/8-30-to-5</id>
     <content type="html"><![CDATA[<p>I used to have a 8:30 &#8211; 17:00 job, but I quit after 101th day, nine months
 later. If you calculate it, you will know that I worked 12
 days a month or less. It was also an $11/hour job, and I needed to commute 50+
@@ -185,9 +252,9 @@ my job. Once I get an income, I&#8217;d be rather glad.</p>
   
   <entry>
     <title type="html"><![CDATA[Setting up another blog]]></title>
-    <link href="http://blog.atomsign.net/blog/2012/09/07/setting-up-another-blog/"/>
+    <link href="http://alanjcfs.github.com/blog/2012/09/07/setting-up-another-blog/"/>
     <updated>2012-09-07T14:56:00-07:00</updated>
-    <id>http://blog.atomsign.net/blog/2012/09/07/setting-up-another-blog</id>
+    <id>http://alanjcfs.github.com/blog/2012/09/07/setting-up-another-blog</id>
     <content type="html"><![CDATA[<p>I have set up another blog after I found that Jekyll Bootstrap was stagnant.
 Of course, ideally a framework should hardly change, but I feel more confident
 about Octopress for being the work of multiple programmers than about

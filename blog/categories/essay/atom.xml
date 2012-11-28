@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Essay | Eight-Fingered Atom]]></title>
-  <link href="http://blog.atomsign.net/blog/categories/essay/atom.xml" rel="self"/>
-  <link href="http://blog.atomsign.net/"/>
-  <updated>2012-10-22T23:02:15-07:00</updated>
-  <id>http://blog.atomsign.net/</id>
+  <link href="http://alanjcfs.github.com/blog/categories/essay/atom.xml" rel="self"/>
+  <link href="http://alanjcfs.github.com/"/>
+  <updated>2012-11-27T21:02:11-08:00</updated>
+  <id>http://alanjcfs.github.com/</id>
   <author>
     <name><![CDATA[Alan Fung-Schwarz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[To try]]></title>
-    <link href="http://blog.atomsign.net/blog/2012/10/22/the-to-try/"/>
+    <link href="http://alanjcfs.github.com/blog/2012/10/22/the-to-try/"/>
     <updated>2012-10-22T22:03:00-07:00</updated>
-    <id>http://blog.atomsign.net/blog/2012/10/22/the-to-try</id>
+    <id>http://alanjcfs.github.com/blog/2012/10/22/the-to-try</id>
     <content type="html"><![CDATA[<p>I watched the last twenty minutes of the debate after I came home.
 This came after a day at work where I felt lost and unproductive.</p>
 

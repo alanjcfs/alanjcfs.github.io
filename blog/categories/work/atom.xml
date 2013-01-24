@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Work | Eight-Fingered Atom]]></title>
-  <link href="http://blog.atomsign.net/blog/categories/work/atom.xml" rel="self"/>
-  <link href="http://blog.atomsign.net/"/>
-  <updated>2012-10-22T23:02:15-07:00</updated>
-  <id>http://blog.atomsign.net/</id>
+  <link href="http://alanjcfs.github.com/blog/categories/work/atom.xml" rel="self"/>
+  <link href="http://alanjcfs.github.com/"/>
+  <updated>2012-11-27T21:02:11-08:00</updated>
+  <id>http://alanjcfs.github.com/</id>
   <author>
     <name><![CDATA[Alan Fung-Schwarz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I am an intern]]></title>
-    <link href="http://blog.atomsign.net/blog/2012/09/18/i-am-an-intern/"/>
+    <link href="http://alanjcfs.github.com/blog/2012/09/18/i-am-an-intern/"/>
     <updated>2012-09-18T12:59:00-07:00</updated>
-    <id>http://blog.atomsign.net/blog/2012/09/18/i-am-an-intern</id>
+    <id>http://alanjcfs.github.com/blog/2012/09/18/i-am-an-intern</id>
     <content type="html"><![CDATA[<p>I was an intern once, for something I didn't regard as particularly
 useful. I spent 200 hours, divided into segment of four-hour period,
 working on the farm, where I helped a former plant biologist

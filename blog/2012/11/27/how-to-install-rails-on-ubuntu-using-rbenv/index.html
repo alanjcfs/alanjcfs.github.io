@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: General - Eight-Fingered Atom</title>
+  <title>How to install Rails on Ubuntu using rbenv - Eight-Fingered Atom</title>
   <meta name="author" content="Alan Fung-Schwarz">
 
   
-  <meta name="description" content="Category: General">
+  <meta name="description" content="The first step is to follow this great write-up on Gist from (https://gist.github.com/2627011)[Olistik]. Get rbenv cd ~
+git clone git://github.com/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://alanjcfs.github.comblog/categories/general/">
+  <link rel="canonical" href="http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -77,36 +78,143 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: General</h1>
+    
+      <h1 class="entry-title">How to Install Rails on Ubuntu Using Rbenv</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-27T20:31:00-08:00" pubdate data-updated="true">Nov 27<span>th</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>The first step is to follow this great write-up on Gist from (https://gist.github.com/2627011)[Olistik].</p>
 
-  
-  <h2>2012</h2>
+<h3>Get rbenv</h3>
 
-<article>
-  
-<h1><a href="/blog/2012/09/07/setting-up-another-blog/">Setting up another blog</a></h1>
-<time datetime="2012-09-07T14:56:00-07:00" pubdate><span class='month'>Sep</span> <span class='day'>07</span> <span class='year'>2012</span></time>
+<pre><code>cd ~
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc
+echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc
+exec $SHELL
+</code></pre>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/general/'>General</a></span>
-</footer>
+<h3>Get ruby-build</h3>
 
+<pre><code>mkdir -p ~/.rbenv/plugins
+cd ~/.rbenv/plugins
+git clone git://github.com/sstephenson/ruby-build.git
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' &gt;&gt; ~/.bashrc
+exec $SHELL
+</code></pre>
 
-</article>
+<h3>Get ruby</h3>
 
+<pre><code>sudo apt-get install zlib1g-dev build-essential libssl-dev libreadline-dev
+rbenv install 1.9.3-p327
+rbenv global 1.9.3-p327
+</code></pre>
+
+<h3>Set local version</h3>
+
+<p>Go into the directory containing your Rails app</p>
+
+<pre><code>rbenv local 1.9.3-p327
+</code></pre>
+
+<p>It will create a .rbenv-version file to ensure that you switch to the right ruby version
+in case you decide to upgrade.</p>
+
+<h3>Disable installation of rdoc and ri</h3>
+
+<pre><code>echo "gem: --no-ri --no-rdoc" &gt; ~/.gemrc
+</code></pre>
+
+<h3>Install dependencies for nokogiri and postgresql</h3>
+
+<pre><code>sudo apt-get install libxml2-dev libxslt1-dev postgresql libpq-dev
+</code></pre>
+
+<h3>Install bundler and bundle install</h3>
+
+<pre><code>gem install bundler
+bundle install
+</code></pre>
+
+<h3>Set up Postgres</h3>
+
+<pre><code>sudo -u postgres psql # and in the postgres type the following with the appropriate substitution
+create user username with createdb password strong_password;
+create database rails_devel with owner username;
+</code></pre>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Alan Fung-Schwarz</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-27T20:31:00-08:00" pubdate data-updated="true">Nov 27<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv/" data-via="" data-counturl="http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/10/22/the-to-try/" title="Previous Post: To try">&laquo; To try</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -162,7 +270,10 @@
       var disqus_shortname = 'atomsign';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv/';
+        var disqus_url = 'http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

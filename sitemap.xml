@@ -1,31 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://blog.atomsign.net/blog/2012/09/07/setting-up-another-blog/</loc>
+        <loc>http://alanjcfs.github.com/blog/2012/09/07/setting-up-another-blog/</loc>
         <lastmod>2012-09-07T17:18:52-07:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.atomsign.net/blog/2012/09/08/8-30-to-5/</loc>
+        <loc>http://alanjcfs.github.com/blog/2012/09/08/8-30-to-5/</loc>
         <lastmod>2012-10-22T10:15:52-07:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.atomsign.net/blog/2012/09/18/i-am-an-intern/</loc>
+        <loc>http://alanjcfs.github.com/blog/2012/09/18/i-am-an-intern/</loc>
         <lastmod>2012-09-19T14:49:31-07:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.atomsign.net/blog/2012/10/22/the-to-try/</loc>
+        <loc>http://alanjcfs.github.com/blog/2012/10/22/the-to-try/</loc>
         <lastmod>2012-10-22T23:01:48-07:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.atomsign.net/about/</loc>
+        <loc>
+            http://alanjcfs.github.com/blog/2012/11/27/how-to-install-rails-on-ubuntu-using-rbenv/
+        </loc>
+        <lastmod>2012-11-27T21:02:11-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://alanjcfs.github.com/about/</loc>
         <lastmod>2012-09-08T19:06:24-07:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.atomsign.net/blog/archives/</loc>
-        <lastmod>2012-10-22T23:01:48-07:00</lastmod>
+        <loc>http://alanjcfs.github.com/blog/archives/</loc>
+        <lastmod>2012-11-27T21:02:11-08:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.atomsign.net/</loc>
-        <lastmod>2012-10-22T23:01:48-07:00</lastmod>
+        <loc>http://alanjcfs.github.com/</loc>
+        <lastmod>2012-11-27T21:02:11-08:00</lastmod>
     </url>
 </urlset>

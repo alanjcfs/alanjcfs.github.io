@@ -1,24 +1,31 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Changing to Jekyll."
 date:   2013-12-15 13:28:22
 categories: jekyll update
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
+I am changing away from Octopress.  Octopress, like RVM, is great for
+bootstrapping a blog more quickly, but part of my growth as a wannabe
+developer has to be based on figuring out how Jekyll works first.  It's how
+you learn.  I'm using a fresh new Jekyll blog to build my Github Pages.
 
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+print_hi('Alan')
+#=> prints 'Hi, Alan' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+It looks like Jekyll by itself already offers several features that I wasn't
+aware of, such as support for code snippets.  I can use \{% highlight ruby %\}
+to start a code block and it will show up prettified.
+
+I'm making it a goal to eventually bring back several lost features, such as
+RSS feeds and excerpts.
+
+With great thanks to [Mojombo][jekyll-gh].
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com

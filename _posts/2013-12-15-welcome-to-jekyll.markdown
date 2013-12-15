@@ -19,7 +19,7 @@ print_hi('Alan')
 {% endhighlight %}
 
 It looks like Jekyll by itself already offers several features that I wasn't
-aware of, such as support for code snippets.  I can use \{% highlight ruby %\}
+aware of, such as support for code snippets.  I can use `{% raw %} {% highlight ruby %} {% endraw %}`
 to start a code block and it will show up prettified.
 
 I'm making it a goal to eventually bring back several lost features, such as

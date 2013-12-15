@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Padrino"
+date: 2013-03-02 23:42
+comments: true
+categories: Ruby
+---
+I've noticed in Padrino that it seems to be a compromise between two conceptual
+framework offered by both [Rails](http://www.rubyonrails.org)
+and [Django](http://www.djangoproject.com).
+The limitation of Django, James
+once told me, was that it required a new folder for every model you used (the
+way I understand it, though I might be wrong). I think that James said that
+the app metaphor didn't make sense when it comes to web applications that had
+many interconnected parts. If one app called a function in another app, then
+how can Django's idea of each app being self-contained work?
+
+Rails approached this from the other end. It has the same idea of the MVC
+framework, and puts all the stuff dealing with models in its own folder,
+stuff dealing with controllers in another folder, and views in `views`, and
+helpers in helpers. The problem with that approach is that there are sometimes
+a need to group certain models together because they are distinctly 
+separate from other parts of the application. The developers are, however,
+free to create folders within the `models` folders to create a separation
+of concerns.
+
+That brings us back to Padrino, which seems to represent the middle way
+by permitting the freedom of Rails to create multiple models in a folder
+while also the separation of concerns by permitting you to use
+the app metaphor by using several different apps in one web application.
+
+Padrino even comes with an admin interface, which is already built-in
+to Django. Padrino builds on top of the Sinatra micro-framework, and Sinatra
+enables hyper-minimalist design, or lack thereof.

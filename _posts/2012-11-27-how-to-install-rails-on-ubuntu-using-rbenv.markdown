@@ -5,7 +5,7 @@ date: 2012-11-27 20:31
 comments: true
 categories: 
 ---
-The first step is to follow this great write-up on Gist from (https://gist.github.com/2627011)[Olistik].
+The first step is to follow this great write-up on Gist from [Olistik](https://gist.github.com/2627011).
 
 ### Get rbenv
 

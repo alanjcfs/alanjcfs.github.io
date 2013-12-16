@@ -18,26 +18,13 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+              {% include header.html %}
             </div>
 
                 {{ content }}
 
             <div class="footer">
-              <div class="contact">
-                <p>
-                  Alan<br />
-                  Ruby and Rails Developer<br />
-                  alan@atomsign.net
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/alanjcfs">github.com/alanjcfs</a><br />
-                  <a href="http://twitter.com/ajcfs">twitter.com/ajcfs</a><br />
-                </p>
-              </div>
+              {% include footer.html %}
             </div>
           </div>
         </div> <!-- /container -->

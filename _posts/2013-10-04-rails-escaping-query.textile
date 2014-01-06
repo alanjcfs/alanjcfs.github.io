@@ -3,7 +3,7 @@ layout: post
 title: "Rails escaping query"
 date: 2013-10-04 23:50
 comments: true
-categories: Rails, ActiveRecord
+categories: Rails ActiveRecord
 ---
 
 Occasionally, I got notified about errors like a bad query involving a name like

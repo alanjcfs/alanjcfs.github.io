@@ -6,8 +6,6 @@ categories: shakespeare
 comments: true
 ---
 
-# Prospero's Revisions
-
 Ye solid-state things, cache, buses, registers  
 And ye that on the silicon with humming fan  
 Do chase the counting Number and do fly him  

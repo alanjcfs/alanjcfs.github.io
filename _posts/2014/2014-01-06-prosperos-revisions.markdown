@@ -3,6 +3,7 @@ layout: post
 title: "Prospero's Revisions"
 date:   2014-01-06 12:44:00
 categories: shakespeare
+comments: true
 ---
 
 # Prospero's Revisions

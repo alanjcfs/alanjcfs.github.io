@@ -1,4 +1,6 @@
-name: The Once And Future Code.
-pygments: true
-description: Just another Jekyll blog.
-url: http://blog.atomsign.net
+name:         The Once And Future Code.
+pygments:     true
+description:  Just another Jekyll blog.
+url:          http://blog.atomsign.net
+asciidoc:     asciidoctor
+asciidoc_ext: asciidoc,adoc

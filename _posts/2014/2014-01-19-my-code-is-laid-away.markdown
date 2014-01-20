@@ -8,12 +8,12 @@ categories: poetry
 My Code is Laid Away in Git  
 I have one Commit more  
 A Bug whom I have never seen  
-But oft has scanned me o'er  
+But oft has scanned me o'er
 
-And iterate me between  
+And iterated me between  
 And others at my side  
 And forked the best, neglecting me  
-Till all the rest have died  
+Till all the rest have died
 
 How sweet, if I am not rebased  
 By chums that laid away  

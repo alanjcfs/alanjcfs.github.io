@@ -9,8 +9,11 @@ layout: default
     {{ content }}
   </article>
 
+  <p>
+    {{ page.tags || array_to_sentence_string }}
+  </p>
+</div>
+
 {% if page.comments %}
   {% include disqus.html %}
 {% endif %}
-
-</div>

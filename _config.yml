@@ -4,3 +4,4 @@ description:  Just another Jekyll blog.
 url:          http://blog.atomsign.net
 asciidoc:     asciidoctor
 asciidoc_ext: asciidoc,adoc
+timeszone:    America/Los_Angeles

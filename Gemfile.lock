@@ -28,7 +28,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    asciidoctor (0.1.4)
     blankslate (2.1.2.4)
     celluloid (0.15.2)
       timers (~> 1.1.0)
@@ -119,6 +118,5 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
-  asciidoctor
   github-pages!
   jekyll

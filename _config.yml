@@ -1,7 +1,17 @@
-name:         The Once And Future Code.
-pygments:     true
-description:  Just another Jekyll blog.
+# Site settings
+title:        The Once And Future Code.
+email:        alan@atomsign.net
+description:  I program in Ruby and hope to tell you about it.
 url:          http://blog.atomsign.net
+baseurl:      ""
 asciidoc:     asciidoctor
 asciidoc_ext: asciidoc,adoc
 timeszone:    America/Los_Angeles
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter:  pygments
+
+twitter: ajcfs
+github: alanjcfs

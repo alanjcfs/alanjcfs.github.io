@@ -1,36 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-        <link rel="alternate" type="application/atom+xml" title="RSS"
-        href="http://blog.atomsign.net/feed.xml">
-
-    </head>
+    {% include head.html %}
     <body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              {% include header.html %}
-            </div>
+        {% include header.html %}
 
-                {{ content }}
-
-            <div class="footer">
-              {% include footer.html %}
-            </div>
+        <div class="page-content">
+          <div class="wrap">
+          {{ content }}
           </div>
-        </div> <!-- /container -->
+        </div>
+
+        {% include footer.html %}
 
     </body>
 </html>

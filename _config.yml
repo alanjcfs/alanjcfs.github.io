@@ -1,12 +1,12 @@
 # Site settings
-title:        The Once And Future Code.
-email:        alan@atomsign.net
-description:  I program in Ruby and hope to tell you about it.
-url:          http://blog.atomsign.net
+title:        "The Once And Future Code."
+email:        "alan@atomsign.net"
+description:  "Another Jekyll blog."
+url:          "http://blog.atomsign.net"
 baseurl:      ""
 asciidoc:     asciidoctor
 asciidoc_ext: asciidoc,adoc
-timeszone:    America/Los_Angeles
+timezone:     "America/Los_Angeles"
 
 # Build settings
 markdown: kramdown

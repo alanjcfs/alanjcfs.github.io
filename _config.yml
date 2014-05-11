@@ -15,3 +15,7 @@ highlighter:  pygments
 
 twitter: ajcfs
 github: alanjcfs
+
+gems:
+  - asciidoctor
+  - RedCloth

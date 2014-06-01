@@ -1,4 +1,5 @@
 # Site settings
+name:         "Alan Fung-Schwarz"
 title:        "The Once And Future Code."
 email:        "alan@atomsign.net"
 description:  "Another Jekyll blog."

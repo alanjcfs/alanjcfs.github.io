@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', branch: 'the-big-two-oh', github: 'github/pages-gem'
-gem 'jekyll'
+gem 'github-pages'
+gem 'jekyll', '~> 1.5'
 # gem 'asciidoctor'
 gem 'RedCloth'

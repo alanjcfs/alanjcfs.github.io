@@ -8,7 +8,7 @@ category:
 ---
 
 What I learned from reading [this post about setting up something like a
-virtual host on Nginx](1) is that you can have several domains pointing to the
+virtual host on Nginx][1] is that you can have several domains pointing to the
 same server, and Nginx will automatically direct the correct information to the
 applications working for each domain.
 

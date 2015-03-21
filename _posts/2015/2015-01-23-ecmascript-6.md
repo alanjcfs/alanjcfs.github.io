@@ -1,6 +1,8 @@
 ---
 title: "ECMAScript 2015 Module"
 layout: post
+tags:
+  - programming
 category: javascript
 ---
 
@@ -17,9 +19,11 @@ caveat).
 In ES6's module system it feels like we are going back to requiring
 multiple files again:
 
-    import { foo } from foo;
-    import { bar } from 'bar';
-    import { sqrt, exp } from 'lib/math';
+{% highlight javascript %}
+import { foo } from foo;
+ import { bar } from 'bar';
+ import { sqrt, exp } from 'lib/math';
+{% endhighlight %}
 
 The browser would need to request foo, bar, and lib/math from the server,
 which would be three requests. And if those foo and bars all import their own
@@ -28,7 +32,7 @@ files, this would result in many more server requests.
 But ... now I know this is wrong. You can still compile everything. Traceur can
 do that for you.
 
-ES6 modules just mean that multiple `<scripts>` now can require files on their
+ES6 modules just mean that multiple `<script>` now can require files on their
 own instead of remember to add `<script>` beforehand, and you would be able to go
 into browser inspector and import files _right there_ in the console. As far as I
 know, there's no way to usefully require a file in the browser.

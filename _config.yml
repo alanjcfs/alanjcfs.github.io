@@ -13,6 +13,8 @@ timezone:     "America/Los_Angeles"
 markdown: kramdown
 permalink: pretty
 highlighter:  pygments
+sass:
+  style: compressed
 
 twitter: ajcfs
 github: alanjcfs

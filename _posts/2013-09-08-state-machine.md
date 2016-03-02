@@ -7,7 +7,7 @@ categories:
 ---
 
 I was thinking about state machines, and came across this blog post 
-"Mojolingo: State Machines":https://mojolingo.com/blog/2013/state-machines/
+[Mojolingo: State Machines](https://mojolingo.com/blog/2013/state-machines/)
 
 I have been aware of finite state machines, but I didn't have an idea of how
 it could be useful.

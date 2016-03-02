@@ -12,7 +12,7 @@ timezone:     "America/Los_Angeles"
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter:  pygments
+highlighter: rouge
 sass:
   style: compressed
 

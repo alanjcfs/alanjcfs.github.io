@@ -1,0 +1,55 @@
+---
+title: "The weakness of Grape API"
+layout: post
+tags:
+  - programming
+  - ruby
+category: programming
+---
+
+How to abuse Grape. What I have been seeing is how far we have gotten away
+from what works.
+
+The issues I have been seeing is what has been Rails' strengths, which was the
+use of routes with model-view-controller design. In this case, routes help give
+us an overview of all the available endpoints that exist in our application,
+which are not easy to obtain except by using a gem like swagger.
+
+What I have seen is the tendency to pile inside a single API file all the
+different actions that are available without realizing that each new action is a
+potential new resource.
+
+It harkens back to a [a post discussing how DHH organizes his controllers][1],
+by creating a lot of small controllers for each action, rather than piling on
+new actions inside a single controller.
+
+Rather than, say, doing:
+
+    class UsersController
+      # index, show, create, update, destroy already created ...
+      # Now adding a new action
+      def dashboard
+      end
+    end
+
+you would create new namespace:
+
+    class Users::DashboardController
+      def index
+      end
+    end
+
+I think this makes more sense and is more sensible because it keeps individual
+files from getting out of control. The use of `config/routes.rb` helps us know
+what happens with a path hits a certain endpoint, and this was lost in Grape.
+
+The only way we know what is accessible is by calling `mount`, and we can mount
+inside of a file that is itself mounted somewhere else, but this causes us not
+to have a centralized location where we can look at all the routes available.
+Rails provides us with `rake routes`. Grape has only Swagger.
+
+Perhaps what this should teach us is to make us to do more to keep our
+endpoints flat and simple, and that is also something that Ember Data
+preferred (at the very least, this was true last year).
+
+[1](http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/)

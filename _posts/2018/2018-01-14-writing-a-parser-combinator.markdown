@@ -1,5 +1,5 @@
 ---
-title: "Writing a Parser Combinator in Rust"
+title: "Writing a Parser Combinator in Rust (or Trying To)"
 layout: post
 tags:
   - programming
@@ -10,7 +10,7 @@ through"
 
 ---
 
-## Writing a Parser Combinator in Rust
+I haven't yet succeeded, but here's my progress.
 
 I've been following along the guide introducing [parser combinator in Ruby][1]
 in an attempt to rewrite it in Rust. Here's a gist of my output with an

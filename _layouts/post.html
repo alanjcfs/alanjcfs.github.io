@@ -13,10 +13,12 @@ layout: default
 
   <h4>Tags</h4>
   <p>
-    {{ page.tags || array_to_sentence_string }}
+    {{ page.tags | array_to_sentence_string }}
   </p>
 </div>
 
-{% if page.comments %}
-  {% include disqus.html %}
+{% if jekyll.environment == "production" %}
+  {% unless page.comments == false %}
+    {% include disqus.html %}
+  {% endunless %}
 {% endif %}

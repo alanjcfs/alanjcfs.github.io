@@ -10,10 +10,10 @@
   "scripts": {
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "build": "gridsome build"
+    "build": "gridsome build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
-  "predeploy": "yarn build",
-  "deploy": "gh-pages -d dist",
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",

@@ -1,0 +1,12 @@
+{
+  "name": "alanjcfs.github.io",
+  "version": "1.0.0",
+  "description": "Alan's GitHub Pages",
+  "main": "src/main.js",
+  "repository": "git@github.com:alanjcfs/alanjcfs.github.io.git",
+  "author": "Alan Fung-Schwarz <alan.jcfs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gridsome": "^0.7.23"
+  }
+}

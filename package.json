@@ -17,6 +17,7 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
+    "gh-pages": "^3.2.3",
     "gridsome": "^0.7.23",
     "marked": "^3.0.2"
   }

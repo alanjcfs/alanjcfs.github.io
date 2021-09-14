@@ -1,15 +1,25 @@
 <template>
 	<Layout>
-	<h1>Hello, world!</h1>
+	<h1>alanjcfs</h1>
 
-	<p>Using Gridsome</p>
+	<p>Welcome</p>
+
+	<p>
+		I majored in Molecular and Cell Biology and Chemistry, but ultimately
+		turned to computer programming.
+	</p>
+
+	<ul>
+		<li><router-link to="/about">About</router-link></li>
+		<li><router-link to="/cochlear-implant">Cochlear Implant, my first major surgery</router-link></li>
+	</ul>
 	</Layout>
 </template>
 
 <script>
 export default {
 	metaInfo: {
-		title: "Hello, world!"
+		title: "Home | alanjcfs.github.io"
 	}
 }
 </script>
